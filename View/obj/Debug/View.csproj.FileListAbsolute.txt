@@ -1,0 +1,25 @@
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.csprojResolveAssemblyReference.cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormCarro.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormFuncionario.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormHistorico.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormListarHistorico.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormLogin.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormPrincipal.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.FormVaga.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.Properties.Resources.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.csproj.GenerateResource.Cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\View.exe.config
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\View.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\View.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\Control.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\Model.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\Control.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\bin\Debug\Model.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\View\obj\Debug\View.pdb
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\bin\Debug\View.exe.config
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\obj\Debug\View.exe
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\obj\Debug\View.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\bin\Debug\View.exe.config
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\obj\Debug\View.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\Sistema\View\obj\Debug\View.pdb

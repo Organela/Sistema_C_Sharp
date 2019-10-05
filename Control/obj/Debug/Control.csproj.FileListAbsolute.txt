@@ -1,0 +1,12 @@
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Control.exe.config
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Control.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Control.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Dao.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Model.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Dao.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\bin\Debug\Model.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.Properties.Resources.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.csproj.GenerateResource.Cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.pdb

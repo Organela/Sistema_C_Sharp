@@ -1,0 +1,10 @@
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\bin\Debug\Dao.exe.config
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\bin\Debug\Dao.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\bin\Debug\Dao.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\bin\Debug\Model.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\bin\Debug\Model.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.csprojResolveAssemblyReference.cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.Properties.Resources.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.csproj.GenerateResource.Cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.pdb

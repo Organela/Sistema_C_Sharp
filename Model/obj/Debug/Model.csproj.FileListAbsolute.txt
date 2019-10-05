@@ -1,0 +1,7 @@
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\bin\Debug\Model.exe.config
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\bin\Debug\Model.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\bin\Debug\Model.pdb
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\obj\Debug\Model.Properties.Resources.resources
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\obj\Debug\Model.exe
+c:\users\andre\documents\visual studio 2012\Projects\Sistema\Model\obj\Debug\Model.pdb

@@ -1,0 +1,17 @@
+TextBox
+Label
+Button
+CheckBox
+Timer
+Picture Box
+DataTimePicker
+ComboBox
+Radio Button
+
+MenuStrip
+ToolStrip
+
+
+
+DataGridView
+MessageBox

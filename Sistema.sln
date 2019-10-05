@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{7375303B-B5CD-4193-8B31-D7D63588B447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{ADC3635C-2017-4F3A-8EE4-8BCC9BD9614A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{5AE22E29-4C8A-4A71-838C-19C1AE68DB2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control", "Control\Control.csproj", "{B7370406-A691-4B87-920D-6043AE14FAB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7375303B-B5CD-4193-8B31-D7D63588B447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7375303B-B5CD-4193-8B31-D7D63588B447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7375303B-B5CD-4193-8B31-D7D63588B447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7375303B-B5CD-4193-8B31-D7D63588B447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC3635C-2017-4F3A-8EE4-8BCC9BD9614A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC3635C-2017-4F3A-8EE4-8BCC9BD9614A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC3635C-2017-4F3A-8EE4-8BCC9BD9614A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC3635C-2017-4F3A-8EE4-8BCC9BD9614A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE22E29-4C8A-4A71-838C-19C1AE68DB2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE22E29-4C8A-4A71-838C-19C1AE68DB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE22E29-4C8A-4A71-838C-19C1AE68DB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE22E29-4C8A-4A71-838C-19C1AE68DB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7370406-A691-4B87-920D-6043AE14FAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7370406-A691-4B87-920D-6043AE14FAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7370406-A691-4B87-920D-6043AE14FAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7370406-A691-4B87-920D-6043AE14FAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
