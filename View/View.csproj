@@ -44,35 +44,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCarro.cs">
+    <Compile Include="FormCarroDeletarBuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCarro.Designer.cs">
-      <DependentUpon>FormCarro.cs</DependentUpon>
+    <Compile Include="FormCarroDeletarBuscar.Designer.cs">
+      <DependentUpon>FormCarroDeletarBuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFuncionario.cs">
+    <Compile Include="FormCarroInserirAtualizar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFuncionario.Designer.cs">
-      <DependentUpon>FormFuncionario.cs</DependentUpon>
+    <Compile Include="FormCarroInserirAtualizar.Designer.cs">
+      <DependentUpon>FormCarroInserirAtualizar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormHistorico.cs">
+    <Compile Include="FormClienteDeletarBuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormHistorico.Designer.cs">
-      <DependentUpon>FormHistorico.cs</DependentUpon>
+    <Compile Include="FormClienteDeletarBuscar.Designer.cs">
+      <DependentUpon>FormClienteDeletarBuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="formHistoricoInserir.cs">
+    <Compile Include="FormClienteListar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formHistoricoInserir.Designer.cs">
-      <DependentUpon>formHistoricoInserir.cs</DependentUpon>
+    <Compile Include="FormClienteListar.Designer.cs">
+      <DependentUpon>FormClienteListar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormListarHistorico.cs">
+    <Compile Include="FormFuncionarioDeletarBuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormListarHistorico.Designer.cs">
-      <DependentUpon>FormListarHistorico.cs</DependentUpon>
+    <Compile Include="FormFuncionarioDeletarBuscar.Designer.cs">
+      <DependentUpon>FormFuncionarioDeletarBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFuncionarioInserirAtulizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFuncionarioInserirAtulizar.Designer.cs">
+      <DependentUpon>FormFuncionarioInserirAtulizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFuncionarioListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFuncionarioListar.Designer.cs">
+      <DependentUpon>FormFuncionarioListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistoricoDeletarBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistoricoDeletarBuscar.Designer.cs">
+      <DependentUpon>FormHistoricoDeletarBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistoricoInserirAtualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistoricoInserirAtualizar.Designer.cs">
+      <DependentUpon>FormHistoricoInserirAtualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCarroListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCarroListar.Designer.cs">
+      <DependentUpon>FormCarroListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistoricoListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistoricoListar.Designer.cs">
+      <DependentUpon>FormHistoricoListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClienteInserirAtualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClienteInserirAtualizar.Designer.cs">
+      <DependentUpon>FormClienteInserirAtualizar.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -86,25 +128,61 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVaga.cs">
+    <Compile Include="FormVagaInserirAtualizar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVaga.Designer.cs">
-      <DependentUpon>FormVaga.cs</DependentUpon>
+    <Compile Include="FormVagaInserirAtualizar.Designer.cs">
+      <DependentUpon>FormVagaInserirAtualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVagaDeletarBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVagaDeletarBuscar.Designer.cs">
+      <DependentUpon>FormVagaDeletarBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVagaListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVagaListar.Designer.cs">
+      <DependentUpon>FormVagaListar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCarro.resx">
-      <DependentUpon>FormCarro.cs</DependentUpon>
+    <EmbeddedResource Include="FormCarroDeletarBuscar.resx">
+      <DependentUpon>FormCarroDeletarBuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFuncionario.resx">
-      <DependentUpon>FormFuncionario.cs</DependentUpon>
+    <EmbeddedResource Include="FormCarroInserirAtualizar.resx">
+      <DependentUpon>FormCarroInserirAtualizar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormHistorico.resx">
-      <DependentUpon>FormHistorico.cs</DependentUpon>
+    <EmbeddedResource Include="FormCarroListar.resx">
+      <DependentUpon>FormCarroListar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormListarHistorico.resx">
-      <DependentUpon>FormListarHistorico.cs</DependentUpon>
+    <EmbeddedResource Include="FormClienteDeletarBuscar.resx">
+      <DependentUpon>FormClienteDeletarBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteListar.resx">
+      <DependentUpon>FormClienteListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFuncionarioDeletarBuscar.resx">
+      <DependentUpon>FormFuncionarioDeletarBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFuncionarioInserirAtulizar.resx">
+      <DependentUpon>FormFuncionarioInserirAtulizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFuncionarioListar.resx">
+      <DependentUpon>FormFuncionarioListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistoricoDeletarBuscar.resx">
+      <DependentUpon>FormHistoricoDeletarBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistoricoInserirAtualizar.resx">
+      <DependentUpon>FormHistoricoInserirAtualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistoricoListar.resx">
+      <DependentUpon>FormHistoricoListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClienteInserirAtualizar.resx">
+      <DependentUpon>FormClienteInserirAtualizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
@@ -112,8 +190,14 @@
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVaga.resx">
-      <DependentUpon>FormVaga.cs</DependentUpon>
+    <EmbeddedResource Include="FormVagaInserirAtualizar.resx">
+      <DependentUpon>FormVagaInserirAtualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVagaDeletarBuscar.resx">
+      <DependentUpon>FormVagaDeletarBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVagaListar.resx">
+      <DependentUpon>FormVagaListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
