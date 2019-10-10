@@ -26,3 +26,6 @@ C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Sistema\S
 C:\Users\andre\Downloads\Sistema_C_Sharp\View\bin\Debug\View.exe.config
 C:\Users\andre\Downloads\Sistema_C_Sharp\View\obj\Debug\View.exe
 C:\Users\andre\Downloads\Sistema_C_Sharp\View\obj\Debug\View.pdb
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\View\bin\Debug\View.exe.config
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\View\obj\Debug\View.exe
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\View\obj\Debug\View.pdb
