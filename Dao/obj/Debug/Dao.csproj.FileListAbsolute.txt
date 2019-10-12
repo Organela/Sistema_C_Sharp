@@ -8,3 +8,13 @@ c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.P
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.csproj.GenerateResource.Cache
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.exe
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Dao\obj\Debug\Dao.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.exe.config
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\bin\Debug\Model.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\bin\Debug\Model.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.Properties.Resources.resources
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csproj.GenerateResource.Cache
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.pdb

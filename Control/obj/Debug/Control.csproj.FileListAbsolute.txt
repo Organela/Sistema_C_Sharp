@@ -10,3 +10,15 @@ c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\C
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.csproj.GenerateResource.Cache
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.exe
 c:\users\andre\documents\visual studio 2012\Projects\Sistema\Control\obj\Debug\Control.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Control.exe.config
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Control.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Control.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Dao.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Model.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Dao.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\bin\Debug\Model.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.Properties.Resources.resources
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.csproj.GenerateResource.Cache
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.pdb

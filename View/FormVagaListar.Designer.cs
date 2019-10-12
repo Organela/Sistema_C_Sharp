@@ -36,12 +36,15 @@
             // 
             // dvgDados
             // 
+            this.dvgDados.AllowUserToAddRows = false;
+            this.dvgDados.AllowUserToDeleteRows = false;
             this.dvgDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgDados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.status});
             this.dvgDados.Location = new System.Drawing.Point(0, 0);
             this.dvgDados.Name = "dvgDados";
+            this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
             this.dvgDados.Size = new System.Drawing.Size(286, 254);
             this.dvgDados.TabIndex = 0;
@@ -50,11 +53,13 @@
             // 
             this.id.HeaderText = "Id";
             this.id.Name = "id";
+            this.id.ReadOnly = true;
             // 
             // status
             // 
             this.status.HeaderText = "Status";
             this.status.Name = "status";
+            this.status.ReadOnly = true;
             // 
             // FormVagaListar
             // 

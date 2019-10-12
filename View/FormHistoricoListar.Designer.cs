@@ -38,6 +38,8 @@
             // 
             // dgvDados
             // 
+            this.dgvDados.AllowUserToAddRows = false;
+            this.dgvDados.AllowUserToDeleteRows = false;
             this.dgvDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.data,
@@ -47,6 +49,7 @@
             this.dgvDados.Location = new System.Drawing.Point(-4, 11);
             this.dgvDados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDados.Name = "dgvDados";
+            this.dgvDados.ReadOnly = true;
             this.dgvDados.RowTemplate.Height = 24;
             this.dgvDados.Size = new System.Drawing.Size(441, 310);
             this.dgvDados.TabIndex = 0;
@@ -56,30 +59,34 @@
             // 
             this.data.HeaderText = "Data";
             this.data.Name = "data";
+            this.data.ReadOnly = true;
             // 
             // preco
             // 
             this.preco.HeaderText = "Preço";
             this.preco.Name = "preco";
+            this.preco.ReadOnly = true;
             // 
             // carro
             // 
             this.carro.HeaderText = "Carro";
             this.carro.Name = "carro";
+            this.carro.ReadOnly = true;
             // 
             // vaga
             // 
             this.vaga.HeaderText = "Vaga";
             this.vaga.Name = "vaga";
+            this.vaga.ReadOnly = true;
             // 
-            // FormListarHistorico
+            // FormHistoricoListar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 322);
             this.Controls.Add(this.dgvDados);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "FormListarHistorico";
+            this.Name = "FormHistoricoListar";
             this.Text = "FormListarHistorico";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).EndInit();
             this.ResumeLayout(false);

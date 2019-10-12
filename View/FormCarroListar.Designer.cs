@@ -38,6 +38,8 @@
             // 
             // dvgDados
             // 
+            this.dvgDados.AllowUserToAddRows = false;
+            this.dvgDados.AllowUserToDeleteRows = false;
             this.dvgDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgDados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
@@ -46,6 +48,7 @@
             this.cliente});
             this.dvgDados.Location = new System.Drawing.Point(0, 0);
             this.dvgDados.Name = "dvgDados";
+            this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
             this.dvgDados.Size = new System.Drawing.Size(444, 258);
             this.dvgDados.TabIndex = 0;
@@ -54,21 +57,25 @@
             // 
             this.id.HeaderText = "Id";
             this.id.Name = "id";
+            this.id.ReadOnly = true;
             // 
             // placa
             // 
             this.placa.HeaderText = "Placa";
             this.placa.Name = "placa";
+            this.placa.ReadOnly = true;
             // 
             // nome
             // 
             this.nome.HeaderText = "Nome";
             this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
             // 
             // cliente
             // 
             this.cliente.HeaderText = "Cliente";
             this.cliente.Name = "cliente";
+            this.cliente.ReadOnly = true;
             // 
             // FormCarroListar
             // 

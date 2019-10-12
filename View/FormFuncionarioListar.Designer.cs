@@ -37,6 +37,8 @@
             // 
             // dvgDados
             // 
+            this.dvgDados.AllowUserToAddRows = false;
+            this.dvgDados.AllowUserToDeleteRows = false;
             this.dvgDados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dvgDados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
@@ -44,6 +46,7 @@
             this.tel});
             this.dvgDados.Location = new System.Drawing.Point(-2, -2);
             this.dvgDados.Name = "dvgDados";
+            this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
             this.dvgDados.Size = new System.Drawing.Size(316, 253);
             this.dvgDados.TabIndex = 1;
@@ -52,16 +55,19 @@
             // 
             this.id.HeaderText = "Id";
             this.id.Name = "id";
+            this.id.ReadOnly = true;
             // 
             // nome
             // 
             this.nome.HeaderText = "Nome";
             this.nome.Name = "nome";
+            this.nome.ReadOnly = true;
             // 
             // tel
             // 
             this.tel.HeaderText = "Tel";
             this.tel.Name = "tel";
+            this.tel.ReadOnly = true;
             // 
             // FormFuncionarioListar
             // 

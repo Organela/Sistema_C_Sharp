@@ -65,6 +65,7 @@
             this.textSenha.Name = "textSenha";
             this.textSenha.Size = new System.Drawing.Size(169, 22);
             this.textSenha.TabIndex = 4;
+            this.textSenha.UseSystemPasswordChar = true;
             // 
             // Entrar
             // 
@@ -102,6 +103,7 @@
             this.textLogin.Name = "textLogin";
             this.textLogin.Size = new System.Drawing.Size(169, 24);
             this.textLogin.TabIndex = 8;
+            this.textLogin.SelectedIndexChanged += new System.EventHandler(this.textLogin_SelectedIndexChanged);
             // 
             // radioButton1
             // 

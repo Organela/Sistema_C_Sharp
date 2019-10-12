@@ -33,7 +33,10 @@ namespace View
                 {
                     this.Tag = user;
                     this.DialogResult = DialogResult.OK;
-                    this.Close();
+                    this.Hide();
+                    FormPrincipal form = new FormPrincipal();
+                    form.ShowDialog();
+                    
                 }
                 else
                 {
@@ -81,6 +84,11 @@ namespace View
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void textLogin_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
