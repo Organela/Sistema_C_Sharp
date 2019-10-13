@@ -14,7 +14,7 @@ namespace View
 {
     public partial class FormPrincipal : Form
     {
-        private Dictionary<Int64, Funcionario> mapaFuncionarios;
+        /*private Dictionary<Int64, Funcionario> mapaFuncionarios;*/
 
         public FormPrincipal()
         {
@@ -23,7 +23,7 @@ namespace View
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
-            
+            this.Hide();
 
             FormLogin form = new FormLogin();
 
@@ -76,11 +76,11 @@ namespace View
 
         private void funcionarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormFuncionarioListar form = new FormFuncionarioListar();
+            /*FormFuncionarioListar form = new FormFuncionarioListar();
 
             form.Tag = mapaFuncionarios;
 
-            form.ShowDialog();
+            form.ShowDialog();*/
         }
 
         private void historicoToolStripMenuItem_Click(object sender, EventArgs e)

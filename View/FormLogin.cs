@@ -33,9 +33,7 @@ namespace View
                 {
                     this.Tag = user;
                     this.DialogResult = DialogResult.OK;
-                    this.Hide();
-                    FormPrincipal form = new FormPrincipal();
-                    form.ShowDialog();
+                    this.Close();
                     
                 }
                 else
