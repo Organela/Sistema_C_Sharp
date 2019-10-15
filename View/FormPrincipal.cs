@@ -177,5 +177,17 @@ namespace View
             FormHistoricoListar form = new FormHistoricoListar();
             form.ShowDialog();
         }
+
+        private void sUser_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+      
     }
 }
