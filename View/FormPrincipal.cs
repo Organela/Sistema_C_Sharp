@@ -37,9 +37,9 @@ namespace View
 
                 Funcionario user = (Funcionario)form.Tag;
 
-                sUser.Text = " | Usuário logado: " + user.nome;
+                sUser.Text = " | Usuário " + user.nome;
 
-                timer1.Enabled = true;
+                tmHora.Enabled = true;
 
                 /*CarregarListaFuncionario();*/
             }
@@ -178,16 +178,19 @@ namespace View
             form.ShowDialog();
         }
 
-        private void sUser_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void sUser_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void itsLabelHora_Click(object sender, EventArgs e)
         {
 
         }
 
-      
+        private void tmHora_Tick(object sender, EventArgs e)
+        {
+            itsLabelHora.Text = DateTime.Now.ToLongTimeString();
+        }
     }
 }

@@ -22,3 +22,15 @@ C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.Properties.Re
 C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.csproj.GenerateResource.Cache
 C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.exe
 C:\Users\andre\Documents\Sistema_C_Sharp\Control\obj\Debug\Control.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Control.exe.config
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Control.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Control.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Dao.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Model.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Dao.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\bin\Debug\Model.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\obj\Debug\Control.csprojResolveAssemblyReference.cache
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\obj\Debug\Control.Properties.Resources.resources
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\obj\Debug\Control.csproj.GenerateResource.Cache
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\obj\Debug\Control.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Control\obj\Debug\Control.pdb

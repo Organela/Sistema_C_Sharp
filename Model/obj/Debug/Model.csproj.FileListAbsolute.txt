@@ -13,3 +13,11 @@ C:\Users\andre\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.Properties.Resour
 C:\Users\andre\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.csproj.GenerateResource.Cache
 C:\Users\andre\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.exe
 C:\Users\andre\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.exe.config
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.pdb
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.Properties.Resources.resources
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.exe
+C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.pdb

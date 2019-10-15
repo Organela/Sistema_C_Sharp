@@ -54,10 +54,10 @@
             this.listarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.sUser = new System.Windows.Forms.ToolStrip();
+            this.tmHora = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.sUser = new System.Windows.Forms.ToolStripStatusLabel();
+            this.itsLabelHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -70,7 +70,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(460, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(487, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -258,53 +258,52 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(0, 300);
+            this.dateTimePicker1.Location = new System.Drawing.Point(0, 262);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 3;
             // 
-            // sUser
+            // tmHora
             // 
-            this.sUser.Location = new System.Drawing.Point(0, 28);
-            this.sUser.Name = "sUser";
-            this.sUser.Size = new System.Drawing.Size(460, 25);
-            this.sUser.TabIndex = 4;
-            this.sUser.Text = "sUser";
-            this.sUser.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.sUser_ItemClicked);
+            this.tmHora.Enabled = true;
+            this.tmHora.Interval = 1;
+            this.tmHora.Tick += new System.EventHandler(this.tmHora_Tick);
             // 
             // statusStrip1
             // 
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Right;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(395, 53);
+            this.sUser,
+            this.itsLabelHora});
+            this.statusStrip1.Location = new System.Drawing.Point(422, 28);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 2, 1, 22);
             this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.statusStrip1.Size = new System.Drawing.Size(65, 269);
+            this.statusStrip1.Size = new System.Drawing.Size(65, 258);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
-            // toolStripStatusLabel1
+            // sUser
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(63, 20);
-            this.toolStripStatusLabel1.Text = "00:00:00";
-            this.toolStripStatusLabel1.Click += new System.EventHandler(this.timer1_Tick);
+            this.sUser.Name = "sUser";
+            this.sUser.Size = new System.Drawing.Size(63, 20);
+            this.sUser.Text = "sUser";
+            this.sUser.Click += new System.EventHandler(this.sUser_Click);
             // 
-            // timer1
+            // itsLabelHora
             // 
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.itsLabelHora.Name = "itsLabelHora";
+            this.itsLabelHora.Size = new System.Drawing.Size(63, 20);
+            this.itsLabelHora.Text = "00:00:00";
+            this.itsLabelHora.Click += new System.EventHandler(this.itsLabelHora_Click);
             // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 322);
+            this.ClientSize = new System.Drawing.Size(487, 286);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.sUser);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
@@ -334,7 +333,7 @@
         private System.Windows.Forms.ToolStripMenuItem historicoToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ToolStrip sUser;
+        private System.Windows.Forms.Timer tmHora;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripMenuItem deletarBuscarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inserirAtualizarToolStripMenuItem;
@@ -351,7 +350,7 @@
         private System.Windows.Forms.ToolStripMenuItem deletarBuscarToolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem inserirAtualizarToolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem listarToolStripMenuItem4;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel sUser;
+        private System.Windows.Forms.ToolStripStatusLabel itsLabelHora;
     }
 }
