@@ -95,6 +95,7 @@
             this.NaoSouRobo.TabIndex = 7;
             this.NaoSouRobo.Text = "Não sou um Robô";
             this.NaoSouRobo.UseVisualStyleBackColor = true;
+            this.NaoSouRobo.CheckedChanged += new System.EventHandler(this.NaoSouRobo_CheckedChanged);
             // 
             // textLogin
             // 

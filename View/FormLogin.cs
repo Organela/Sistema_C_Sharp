@@ -13,6 +13,8 @@ namespace View
 {
     public partial class FormLogin : Form
     {
+        public Boolean robo = false; 
+        
         public FormLogin()
         {
             InitializeComponent();
@@ -20,31 +22,38 @@ namespace View
 
         private void Entrar_Click(object sender, EventArgs e)
         {
-            try
+            if (robo == Seguranca())
             {
-                Funcionario user = new Funcionario();
-
-                user.nome = textLogin.Text;
-                user.id = textSenha.Text;
-
-                //UsuarioCtrl controlUser = new UsuarioCtrl();
-                //controlUser.ValidarUsuario(user)
-                if (ValidarUsuario(user))
+                try
                 {
-                    this.Tag = user;
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
-                    
+                    Funcionario user = new Funcionario();
+
+                    user.nome = textLogin.Text;
+                    user.id = textSenha.Text;
+
+                    //UsuarioCtrl controlUser = new UsuarioCtrl();
+                    //controlUser.ValidarUsuario(user)
+                    if (ValidarUsuario(user))
+                    {
+                        this.Tag = user;
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario ou Senha invalidos");
+                        /*lblMsg.Text = "Usuário ou Senha inválidos!!!";*/
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Usuario ou Senha invalidos");
-                    /*lblMsg.Text = "Usuário ou Senha inválidos!!!";*/
+                    MessageBox.Show("ERRO: " + ex.Message);
                 }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("ERRO: " + ex.Message);
+                MessageBox.Show("Alerta Robo! ");
             }
         }
 
@@ -89,6 +98,16 @@ namespace View
         private void textLogin_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void NaoSouRobo_CheckedChanged(object sender, EventArgs e)
+        {
+            Seguranca();
+        }
+        public  Boolean Seguranca()
+        {
+            robo = true;
+            return true;
         }
     }
 }
