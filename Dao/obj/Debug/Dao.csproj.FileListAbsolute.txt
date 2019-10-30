@@ -28,3 +28,16 @@ C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Dao\obj\D
 C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Dao\obj\Debug\Dao.csproj.GenerateResource.Cache
 C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Dao\obj\Debug\Dao.exe
 C:\Users\andre\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Dao\obj\Debug\Dao.pdb
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.exe.config
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.exe
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Dao.pdb
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Model.exe
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Model.pdb
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\bin\Debug\Model.exe.config
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csprojAssemblyReference.cache
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.Properties.Resources.resources
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csproj.GenerateResource.cache
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.csproj.CopyComplete
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.exe
+C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Dao\obj\Debug\Dao.pdb

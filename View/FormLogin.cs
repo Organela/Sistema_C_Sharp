@@ -22,7 +22,7 @@ namespace View
 
         private void Entrar_Click(object sender, EventArgs e)
         {
-            if (robo == Seguranca())
+            if (NaoSouRobo.Checked)
             {
                 try
                 {
