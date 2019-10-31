@@ -8,13 +8,13 @@ namespace Model
 {
     public class Carro
     {
-        public Int64 id { get; set; }
+        public Int64 Id { get; set; }
 
-        public String placa { get; set; }
+        public String Placa { get; set; }
 
-        public String nome { get; set; }
+        public String Nome { get; set; }
 
-        public List<Cliente> cliente { get; set; }
+        public List<Cliente> Cliente { get; set; }
 
     }
 }

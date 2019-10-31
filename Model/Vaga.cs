@@ -8,8 +8,8 @@ namespace Model
 {
     public class Vaga
     {
-        public Int64 id { get; set; }
-        public Boolean status { get; set; }
+        public Int64 Id { get; set; }
+        public Boolean Status { get; set; }
 
     }
 }

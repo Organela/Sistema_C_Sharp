@@ -8,8 +8,8 @@ namespace Model
 {
     public class Cliente
     {
-        public Int64 id { get; set; }
-        public String nome { get; set; }
-        public String tel { get; set; }
+        public Int64 Id { get; set; }
+        public String Nome { get; set; }
+        public String Tel { get; set; }
     }
 }

@@ -8,13 +8,13 @@ namespace Model
 {
     public class Historico
     {
-        public DateTime data { get; set; }
-        public Double preco { get; set; }
+        public DateTime Data { get; set; }
+        public Double Preco { get; set; }
         
 
 
-        public List<Carro> carro { get; set; }
-        public List<Vaga> vaga { get; set; }
-        public List<Funcionario> funcionario { get; set; }
+        public List<Carro> Carro { get; set; }
+        public List<Vaga> Vaga { get; set; }
+        public List<Funcionario> Funcionario { get; set; }
     }
 }

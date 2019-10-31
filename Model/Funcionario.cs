@@ -8,8 +8,8 @@ namespace Model
 {
     public class Funcionario
     {
-        public String id { get; set; }
-        public String nome { get; set; }
-        public String tel { get; set; }
+        public String Id { get; set; }
+        public String Nome { get; set; }
+        public String Tel { get; set; }
     }
 }

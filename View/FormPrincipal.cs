@@ -37,7 +37,7 @@ namespace View
 
                 Funcionario user = (Funcionario)form.Tag;
 
-                sUser.Text = " | Usuário " + user.nome;
+                sUser.Text = " | Usuário " + user.Nome;
 
                 tmHora.Enabled = true;
 
