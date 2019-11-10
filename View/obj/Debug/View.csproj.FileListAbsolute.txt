@@ -45,7 +45,6 @@ C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormCarroListar.res
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormClienteDeletarBuscar.resources
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormClienteListar.resources
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormFuncionarioDeletarBuscar.resources
-C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormFuncionarioInserirAtulizar.resources
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormFuncionarioListar.resources
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormHistoricoDeletarBuscar.resources
 C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormHistoricoInserirAtualizar.resources
@@ -122,3 +121,4 @@ C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.exe
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.pdb
 C:\Users\andre\Documents\Sistema_C_Sharp\View\bin\Debug\Dao.exe
 C:\Users\andre\Documents\Sistema_C_Sharp\View\bin\Debug\Dao.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\View\obj\Debug\View.FormFuncionarioInserirAtualizar.resources

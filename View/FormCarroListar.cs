@@ -16,5 +16,10 @@ namespace View
         {
             InitializeComponent();
         }
+
+        private void dvgDados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

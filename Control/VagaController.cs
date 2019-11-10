@@ -8,13 +8,13 @@ using Dao;
 
 namespace Control
 {
-     public class CarroController
+    public class VagaController
     {
-        public Object ExecutarOpBD(char _c, Carro _o)
+        public Object ExecutarOpBD(char _c, Vaga _o)
         {
             try
             {
-                CarroDAO dao = new CarroDAO();
+                VagaDAO dao = new VagaDAO();
                 switch (_c)
                 {
                     case 'i':
@@ -36,6 +36,5 @@ namespace Control
                 throw new Exception(ex.Message);
             }
         }
-
     }
 }

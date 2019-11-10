@@ -103,6 +103,13 @@ namespace View
         private void listarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormClienteListar form = new FormClienteListar();
+
+
+            ClienteController c = new ClienteController();
+            Cliente p = new Cliente();
+
+            c.ExecutarOpBD('l', p);
+
             form.ShowDialog();
         }
 
@@ -121,6 +128,12 @@ namespace View
         private void listarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FormCarroListar form = new FormCarroListar();
+
+
+            CarroController c = new CarroController();
+            Carro p = new Carro();
+            c.ExecutarOpBD('l', p);
+
             form.ShowDialog();
         }
 
@@ -139,6 +152,12 @@ namespace View
         private void listarToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             FormVagaListar form = new FormVagaListar();
+
+            VagaController c = new VagaController();
+            Vaga p = new Vaga();
+
+            c.ExecutarOpBD('l', p);
+
             form.ShowDialog();
         }
 
@@ -150,13 +169,19 @@ namespace View
 
         private void inserirAtualizarToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            FormFuncionarioInserirAtulizar form = new FormFuncionarioInserirAtulizar();
+            FormFuncionarioInserirAtualizar form = new FormFuncionarioInserirAtualizar();
             form.ShowDialog();
         }
 
         private void listarToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             FormFuncionarioListar form = new FormFuncionarioListar();
+
+            FuncionarioController c = new FuncionarioController();
+            Funcionario p = new Funcionario();
+
+            c.ExecutarOpBD('l', p);
+
             form.ShowDialog();
         }
 
@@ -175,6 +200,12 @@ namespace View
         private void listarToolStripMenuItem4_Click(object sender, EventArgs e)
         {
             FormHistoricoListar form = new FormHistoricoListar();
+
+            HistoricoController c = new HistoricoController();
+            Historico p = new Historico();
+
+            c.ExecutarOpBD('l', p);
+
             form.ShowDialog();
         }
 

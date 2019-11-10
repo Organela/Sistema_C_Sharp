@@ -8,13 +8,14 @@ using Dao;
 
 namespace Control
 {
-     public class CarroController
+    public class FuncionarioController
     {
-        public Object ExecutarOpBD(char _c, Carro _o)
+
+        public Object ExecutarOpBD(char _c, Funcionario _o)
         {
             try
             {
-                CarroDAO dao = new CarroDAO();
+                FuncionarioDAO dao = new FuncionarioDAO();
                 switch (_c)
                 {
                     case 'i':

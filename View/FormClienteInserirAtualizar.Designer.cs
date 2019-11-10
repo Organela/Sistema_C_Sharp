@@ -94,6 +94,7 @@
             this.Inserir.TabIndex = 6;
             this.Inserir.Text = "Inserir";
             this.Inserir.UseVisualStyleBackColor = true;
+            this.Inserir.Click += new System.EventHandler(this.Inserir_Click);
             // 
             // Atualizar
             // 
@@ -103,6 +104,7 @@
             this.Atualizar.TabIndex = 7;
             this.Atualizar.Text = "Atualizar";
             this.Atualizar.UseVisualStyleBackColor = true;
+            this.Atualizar.Click += new System.EventHandler(this.Atualizar_Click);
             // 
             // FormClienteInserirAtualizar
             // 

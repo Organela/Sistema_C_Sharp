@@ -8,14 +8,14 @@ using System.Data.SqlServerCe;
 
 namespace Dao
 {
-    class ClienteDAO
+   public class ClienteDAO
     {
         public List<Cliente> ListarTodos()
         {
             List<Cliente> listaClientes = new List<Cliente>();
             try
             {
-                String SQL = "SELECT * FROM Cliente;";
+                String SQL = "SELECT * FROM cliente;";
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -49,7 +49,7 @@ namespace Dao
             Cliente e = null;
             try
             {
-                String SQL = String.Format("SELECT * FROM Cliente WHERE id = {0} ", _id);
+                String SQL = String.Format("SELECT * FROM cliente WHERE id = {0} ", _id);
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -78,7 +78,7 @@ namespace Dao
             bool resultado = false;
             try
             {
-                String SQL = String.Format("INSERT INTO Cliente (id, nome, tel) VALUES ('{0}', '{1}', '{2}')", _objeto.Id, _objeto.Nome, _objeto.Tel);
+                String SQL = String.Format("INSERT INTO cliente (id, nome, tel) VALUES ('{0}', '{1}', '{2}')", _objeto.Id, _objeto.Nome, _objeto.Tel);
 
                 int linhaAfetadas = BD.ExecutarIDU(SQL);
 
@@ -101,7 +101,7 @@ namespace Dao
             bool resultado = false;
             try
             {
-                String SQL = String.Format("UPDATE Cliente SET id = '{0}', nome = '{1}', tel = '{2}'  WHERE id = {0};",
+                String SQL = String.Format("UPDATE cliente SET id = '{0}', nome = '{1}', tel = '{2}'  WHERE id = {0};",
                     _objeto.Id,
                     _objeto.Nome,
                     _objeto.Tel);

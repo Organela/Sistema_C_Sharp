@@ -8,7 +8,7 @@ using System.Data.SqlServerCe;
 
 namespace Dao
 {
-    class VagaDAO
+   public class VagaDAO
     {
         public List<Vaga> ListarTodos()
         {

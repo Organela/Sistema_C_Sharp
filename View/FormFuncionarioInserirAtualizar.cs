@@ -12,27 +12,25 @@ using Control;
 
 namespace View
 {
-    public partial class FormClienteInserirAtualizar : Form
+    public partial class FormFuncionarioInserirAtualizar : Form
     {
-        public FormClienteInserirAtualizar()
+        public FormFuncionarioInserirAtualizar()
         {
             InitializeComponent();
         }
 
         private void Inserir_Click(object sender, EventArgs e)
         {
-
-            ClienteController c = new ClienteController();
-            Cliente p = new Cliente();
+            FuncionarioController c = new FuncionarioController();
+            Funcionario p = new Funcionario();
 
             c.ExecutarOpBD('i', p);
         }
 
         private void Atualizar_Click(object sender, EventArgs e)
         {
-
-            ClienteController c = new ClienteController();
-            Cliente p = new Cliente();
+            FuncionarioController c = new FuncionarioController();
+            Funcionario p = new Funcionario();
 
             c.ExecutarOpBD('a', p);
         }

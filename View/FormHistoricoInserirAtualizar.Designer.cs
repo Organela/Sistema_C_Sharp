@@ -141,6 +141,7 @@
             this.atualizar.TabIndex = 11;
             this.atualizar.Text = "Atualizar";
             this.atualizar.UseVisualStyleBackColor = true;
+            this.atualizar.Click += new System.EventHandler(this.atualizar_Click);
             // 
             // inserir
             // 
@@ -150,6 +151,7 @@
             this.inserir.TabIndex = 12;
             this.inserir.Text = "Inserir";
             this.inserir.UseVisualStyleBackColor = true;
+            this.inserir.Click += new System.EventHandler(this.inserir_Click);
             // 
             // FormHistoricoInserirAtualizar
             // 

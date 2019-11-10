@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model;
+using Control;
 
 namespace View
 {
@@ -15,6 +17,24 @@ namespace View
         public FormFuncionarioDeletarBuscar()
         {
             InitializeComponent();
+        }
+
+        private void deletar_Click(object sender, EventArgs e)
+        {
+
+            FuncionarioController c = new FuncionarioController();
+            Funcionario p = new Funcionario();
+
+            c.ExecutarOpBD('d', p);
+        }
+
+        private void buscar_Click(object sender, EventArgs e)
+        {
+            FuncionarioController c = new FuncionarioController();
+            Funcionario p = new Funcionario();
+
+            c.ExecutarOpBD('b', p);
+
         }
     }
 }

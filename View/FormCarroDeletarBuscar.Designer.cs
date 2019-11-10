@@ -59,6 +59,7 @@
             this.deletar.TabIndex = 2;
             this.deletar.Text = "Deletar";
             this.deletar.UseVisualStyleBackColor = true;
+            this.deletar.Click += new System.EventHandler(this.deletar_Click);
             // 
             // buscar
             // 
@@ -68,6 +69,7 @@
             this.buscar.TabIndex = 3;
             this.buscar.Text = "Buscar";
             this.buscar.UseVisualStyleBackColor = true;
+            this.buscar.Click += new System.EventHandler(this.buscar_Click);
             // 
             // FormCarroDeletarBuscar
             // 

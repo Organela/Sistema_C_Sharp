@@ -8,14 +8,14 @@ using System.Data.SqlServerCe;
 
 namespace Dao
 {
-    class HistoricoDAO
+    public class HistoricoDAO
     {
-        public List<Historico> ListarTodos(Int64 _id)
+        public List<Historico> ListarTodos(DateTime _id)
         {
             List<Historico> listaHistoricos = new List<Historico>();
             try
             {
-                String SQL = String.Format("SELECT * FROM Historico WHERE estado id = {0};", _id);
+                String SQL = String.Format("SELECT * FROM historico WHERE estado id = {0};", _id);
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -30,17 +30,17 @@ namespace Dao
                     listaHistoricos.Add(c);
                 }
 
-                foreach (Historico p in listaHistoricos)
+                foreach (Historico h in listaHistoricos)
                 {
                    
                     CarroDAO dao = new CarroDAO();
                     VagaDAO dao1 = new VagaDAO();
                     FuncionarioDAO dao2 = new FuncionarioDAO();
+                    Carro c = new Carro();
 
-
-                    p.Carro = dao.BuscarPorID(p.Carro.Id);
-                    p.Vaga = dao1.BuscarPorID(p.Vaga.Id);
-                    p.Funcionario = dao2.BuscarPorID(p.Funcionario.Id);
+                    h.Carro = dao.BuscarPorID(h.Carro.Id);
+                    h.Vaga = dao1.BuscarPorID(h.Vaga.Id);
+                    h.Funcionario = dao2.BuscarPorID(h.Funcionario.Id);
 
                 }
 
@@ -56,12 +56,12 @@ namespace Dao
             return listaHistoricos;
         }
 
-        public Historico BuscarHistoricoPorID(Int64 _id)
+        public Historico BuscarPorID(DateTime _id)
         {
             Historico c = null;
             try
             {
-                String SQL = String.Format("SELECT * FROM Historico WHERE datainicio = {0} ", _id);
+                String SQL = String.Format("SELECT * FROM historico WHERE datainicio = {0} ", _id);
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -92,7 +92,7 @@ namespace Dao
             bool resultado = false;
             try
             {
-                String SQL = String.Format("INSERT INTO Historico (datainicio, datafim, preco) VALUES ('{0}', '{1}', '{2}')", 
+                String SQL = String.Format("INSERT INTO historico (datainicio, datafim, preco) VALUES ('{0}', '{1}', '{2}')", 
                     _objeto.DataInicio,
                     _objeto.DataFim,
                     _objeto.Preco);
@@ -120,7 +120,7 @@ namespace Dao
             try
             {
 
-                String SQL = String.Format("UPDATE Historico SET datainicio = '{0}', datafim = '{1}', preco = '{2}' WHERE datainicio = {0};",
+                String SQL = String.Format("UPDATE historico SET datainicio = '{0}', datafim = '{1}', preco = '{2}' WHERE datainicio = {0};",
                     _objeto.DataInicio,
                     _objeto.DataFim,
                     _objeto.Preco);
@@ -142,7 +142,7 @@ namespace Dao
         }
 
 
-        public Boolean DeletarBD(Int64 _id)
+        public Boolean DeletarBD(DateTime _id)
         {
             bool resultado = false;
             try

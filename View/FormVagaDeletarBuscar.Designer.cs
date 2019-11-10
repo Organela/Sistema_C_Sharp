@@ -42,6 +42,7 @@
             this.Deletar.TabIndex = 5;
             this.Deletar.Text = "Deletar";
             this.Deletar.UseVisualStyleBackColor = true;
+            this.Deletar.Click += new System.EventHandler(this.Deletar_Click);
             // 
             // Buscar
             // 
@@ -51,6 +52,7 @@
             this.Buscar.TabIndex = 7;
             this.Buscar.Text = "Buscar";
             this.Buscar.UseVisualStyleBackColor = true;
+            this.Buscar.Click += new System.EventHandler(this.Buscar_Click);
             // 
             // textBoxId
             // 

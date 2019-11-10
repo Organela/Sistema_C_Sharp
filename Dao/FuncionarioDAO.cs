@@ -8,7 +8,7 @@ using System.Data.SqlServerCe;
 
 namespace Dao
 {
-    class FuncionarioDAO
+    public class FuncionarioDAO
     {
         public List<Funcionario> ListarTodos()
         {

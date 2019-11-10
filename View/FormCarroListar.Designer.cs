@@ -52,6 +52,7 @@
             this.dvgDados.RowTemplate.Height = 24;
             this.dvgDados.Size = new System.Drawing.Size(444, 258);
             this.dvgDados.TabIndex = 0;
+            this.dvgDados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgDados_CellContentClick);
             // 
             // id
             // 

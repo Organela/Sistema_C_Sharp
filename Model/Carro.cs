@@ -13,7 +13,7 @@ namespace Model
         public String Placa { get; set; }
 
         public String Nome { get; set; }
-
+        
         public Cliente Cliente { get; set; }
         
         public Carro()

@@ -74,11 +74,11 @@
     <Compile Include="FormFuncionarioDeletarBuscar.Designer.cs">
       <DependentUpon>FormFuncionarioDeletarBuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFuncionarioInserirAtulizar.cs">
+    <Compile Include="FormFuncionarioInserirAtualizar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFuncionarioInserirAtulizar.Designer.cs">
-      <DependentUpon>FormFuncionarioInserirAtulizar.cs</DependentUpon>
+    <Compile Include="FormFuncionarioInserirAtualizar.Designer.cs">
+      <DependentUpon>FormFuncionarioInserirAtualizar.cs</DependentUpon>
     </Compile>
     <Compile Include="FormFuncionarioListar.cs">
       <SubType>Form</SubType>
@@ -166,8 +166,8 @@
     <EmbeddedResource Include="FormFuncionarioDeletarBuscar.resx">
       <DependentUpon>FormFuncionarioDeletarBuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFuncionarioInserirAtulizar.resx">
-      <DependentUpon>FormFuncionarioInserirAtulizar.cs</DependentUpon>
+    <EmbeddedResource Include="FormFuncionarioInserirAtualizar.resx">
+      <DependentUpon>FormFuncionarioInserirAtualizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormFuncionarioListar.resx">
       <DependentUpon>FormFuncionarioListar.cs</DependentUpon>

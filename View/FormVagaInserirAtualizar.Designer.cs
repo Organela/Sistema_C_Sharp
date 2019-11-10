@@ -47,6 +47,7 @@
             this.Inserir.TabIndex = 2;
             this.Inserir.Text = "Inserir";
             this.Inserir.UseVisualStyleBackColor = true;
+            this.Inserir.Click += new System.EventHandler(this.Inserir_Click);
             // 
             // Atualizar
             // 
@@ -56,6 +57,7 @@
             this.Atualizar.TabIndex = 3;
             this.Atualizar.Text = "Atualizar";
             this.Atualizar.UseVisualStyleBackColor = true;
+            this.Atualizar.Click += new System.EventHandler(this.Atualizar_Click);
             // 
             // timer1
             // 
@@ -102,7 +104,7 @@
             this.textBoxId.Size = new System.Drawing.Size(100, 22);
             this.textBoxId.TabIndex = 11;
             // 
-            // FormInserirAtualizar
+            // FormVagaInserirAtualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +116,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.Atualizar);
             this.Controls.Add(this.Inserir);
-            this.Name = "FormInserirAtualizar";
+            this.Name = "FormVagaInserirAtualizar";
             this.Text = "FormVaga";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Model;
+using Control;
 
 namespace View
 {
@@ -20,6 +22,22 @@ namespace View
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void Deletar_Click(object sender, EventArgs e)
+        {
+            HistoricoController c = new HistoricoController();
+            Historico p = new Historico();
+
+            c.ExecutarOpBD('d', p);
+        }
+
+        private void Buscar_Click(object sender, EventArgs e)
+        {
+            HistoricoController c = new HistoricoController();
+            Historico p = new Historico();
+
+            c.ExecutarOpBD('b', p);
         }
     }
 }

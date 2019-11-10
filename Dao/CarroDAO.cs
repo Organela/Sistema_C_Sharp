@@ -10,12 +10,12 @@ namespace Dao
 {
     public class CarroDAO
     {
-        public List<Carro> ListarTodos(Int64 _id)
+        public List<Carro> ListarTodos()
         {
             List<Carro> listaCarros = new List<Carro>();
             try
             {
-                String SQL = String.Format("SELECT * FROM Carro WHERE estado id = {0};", _id);
+                String SQL = String.Format("SELECT * FROM carro");
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -30,13 +30,14 @@ namespace Dao
                     listaCarros.Add(c);
                 }
                 
-                foreach (Carro p in listaCarros)
+                foreach (Carro c in listaCarros)
                 {
                     ClienteDAO dao = new ClienteDAO();
 
-                    p.Cliente = dao.BuscarPorID(p.Cliente.Id);
+                    c.Cliente = dao.BuscarPorID(c.Cliente.Id);
                 }
-
+                
+           
 
                 data.Close();
                 BD.FecharConexao();
@@ -54,7 +55,7 @@ namespace Dao
             Carro c = null;
             try
             {
-                String SQL = String.Format("SELECT * FROM Carro WHERE id = {0} ", _id);
+                String SQL = String.Format("SELECT * FROM carro WHERE id = {0} ", _id);
 
                 SqlCeDataReader data = BD.ExecutarSelect(SQL);
 
@@ -84,7 +85,7 @@ namespace Dao
             bool resultado = false;
             try
             {
-                String SQL = String.Format("INSERT INTO Carro (id, placa, nome) VALUES ('{0}', '{1}', '{2}')", _objeto.Id, _objeto.Placa, _objeto.Nome);
+                String SQL = String.Format("INSERT INTO carro (id, placa, nome) VALUES ('{0}', '{1}', '{2}')", _objeto.Id, _objeto.Placa, _objeto.Nome);
 
                 int linhaAfetadas = BD.ExecutarIDU(SQL);
 
@@ -109,7 +110,7 @@ namespace Dao
             try
             {
                 
-                String SQL = String.Format("UPDATE Carro SET id = '{0}', placa = '{1}', nome = '{2}' WHERE id = {0};",
+                String SQL = String.Format("UPDATE carro SET id = '{0}', placa = '{1}', nome = '{2}' WHERE id = {0};",
                     _objeto.Id,
                     _objeto.Placa,
                     _objeto.Nome);

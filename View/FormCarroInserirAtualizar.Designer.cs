@@ -50,6 +50,7 @@
             this.Inserir.TabIndex = 1;
             this.Inserir.Text = "Inserir";
             this.Inserir.UseVisualStyleBackColor = true;
+            this.Inserir.Click += new System.EventHandler(this.Inserir_Click);
             // 
             // Atualizar
             // 
@@ -59,6 +60,7 @@
             this.Atualizar.TabIndex = 2;
             this.Atualizar.Text = "Atualizar";
             this.Atualizar.UseVisualStyleBackColor = true;
+            this.Atualizar.Click += new System.EventHandler(this.Atualizar_Click);
             // 
             // timer1
             // 

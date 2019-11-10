@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
 using Dao;
+using Model;
+
 
 namespace Control
 {
-     public class CarroController
+     public class ClienteController
     {
-        public Object ExecutarOpBD(char _c, Carro _o)
+        public Object ExecutarOpBD(char _c, Cliente _o)
         {
             try
             {
-                CarroDAO dao = new CarroDAO();
+                ClienteDAO dao = new ClienteDAO();
                 switch (_c)
                 {
                     case 'i':
@@ -36,6 +37,5 @@ namespace Control
                 throw new Exception(ex.Message);
             }
         }
-
     }
 }
