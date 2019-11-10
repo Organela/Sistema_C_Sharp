@@ -120,3 +120,5 @@ C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.csproj.CoreCo
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.csproj.CopyComplete
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.exe
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\View\obj\Debug\View.pdb
+C:\Users\andre\Documents\Sistema_C_Sharp\View\bin\Debug\Dao.exe
+C:\Users\andre\Documents\Sistema_C_Sharp\View\bin\Debug\Dao.pdb

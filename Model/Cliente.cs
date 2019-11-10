@@ -12,4 +12,6 @@ namespace Model
         public String Nome { get; set; }
         public String Tel { get; set; }
     }
+
+
 }

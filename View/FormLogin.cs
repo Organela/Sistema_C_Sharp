@@ -29,7 +29,7 @@ namespace View
                     Funcionario user = new Funcionario();
 
                     user.Nome = textLogin.Text;
-                    user.Id = textSenha.Text;
+                    user.Senha = textSenha.Text;
 
                     //UsuarioCtrl controlUser = new UsuarioCtrl();
                     //controlUser.ValidarUsuario(user)
@@ -61,7 +61,7 @@ namespace View
         {
             try
             {
-                if (user.Nome == "t" && user.Id == "t")/*nome = login --- id = senha*/
+                if (user.Nome == "t" && user.Senha == "t")/*nome = login --- id = senha*/
                 {
                     return true;
                 }

@@ -26,7 +26,7 @@ namespace View
             Dictionary<Int64, Historico> mapaHistorico = (Dictionary<Int64, Historico>)this.Tag;
             foreach (Historico h in mapaHistorico.Values)
             {
-                dgvDados.Rows.Add(h.Data, h.Preco, h.Carro, h.Vaga, h.Funcionario);
+                dgvDados.Rows.Add(h.DataInicio, h.DataFim, h.Preco, h.Carro, h.Vaga, h.Funcionario);
             }
         }
 

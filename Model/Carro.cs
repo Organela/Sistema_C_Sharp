@@ -14,7 +14,21 @@ namespace Model
 
         public String Nome { get; set; }
 
-        public List<Cliente> Cliente { get; set; }
+        public Cliente Cliente { get; set; }
+        
+        public Carro()
+        {
+            this.Cliente = new Cliente();
+        }
+        
+       
+        /*
+        public List<Cliente> Cliente = new List<Cliente>();
+        public Carro()
+        {
+            this.Cliente = new List<Cliente>();
+        }
+        */
 
     }
 }
