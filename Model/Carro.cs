@@ -20,15 +20,9 @@ namespace Model
         {
             this.Cliente = new Cliente();
         }
-        
-       
-        /*
-        public List<Cliente> Cliente = new List<Cliente>();
-        public Carro()
-        {
-            this.Cliente = new List<Cliente>();
-        }
-        */
+
+
+
 
     }
 }

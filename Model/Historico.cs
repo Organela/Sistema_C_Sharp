@@ -22,19 +22,8 @@ namespace Model
             this.Vaga = new Vaga();
             this.Funcionario = new Funcionario();
         }
-        
 
-        /*
-        public List<Carro> Carro { get; set; }
-        public List<Vaga> Vaga { get; set; }
-        public List<Funcionario> Funcionario { get; set; }
 
-        public Historico()
-        {
-            this.Carro = new List<Carro>();
-            this.Vaga = new List<Vaga>();
-            this.Funcionario = new List<Funcionario>();
-        }
-         */
+
     }
 }
