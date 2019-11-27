@@ -25,6 +25,10 @@ namespace View
             ClienteController c = new ClienteController();
             Cliente p = new Cliente();
 
+            p.Id = Convert.ToInt64(textBoxId.Text);
+            p.Nome = textBoxNome.Text;
+            p.Tel = textBoxtTel.Text;
+
             c.ExecutarOpBD('i', p);
         }
 
@@ -33,6 +37,8 @@ namespace View
 
             ClienteController c = new ClienteController();
             Cliente p = new Cliente();
+
+            p.Id = Convert.ToInt64(textBoxId.Text);
 
             c.ExecutarOpBD('a', p);
         }

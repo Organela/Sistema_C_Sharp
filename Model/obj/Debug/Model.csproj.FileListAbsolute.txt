@@ -30,3 +30,11 @@ C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.csproj.Gene
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.exe
 C:\Users\andre.cunha\Documents\Sistema_C_Sharp\Model\obj\Debug\Model.pdb
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.exe.config
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.exe
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\bin\Debug\Model.pdb
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.Properties.Resources.resources
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.csproj.GenerateResource.Cache
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.exe
+C:\Users\aluno.unilasalle\Downloads\Sistema_C_Sharp-master\Sistema_C_Sharp-master\Model\obj\Debug\Model.pdb

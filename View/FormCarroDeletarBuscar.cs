@@ -28,7 +28,7 @@ namespace View
         {
             CarroController c = new CarroController();
             Carro p = new Carro();
-
+            p.Id = Convert.ToInt64(textId.Text);
             c.ExecutarOpBD('d', p);
             
             
@@ -38,7 +38,7 @@ namespace View
         {
             CarroController c = new CarroController();
             Carro p = new Carro();
-
+            p.Id = Convert.ToInt64(buscar.Text);
             c.ExecutarOpBD('b', p);
         }
     }

@@ -25,6 +25,8 @@ namespace View
             ClienteController c = new ClienteController();
             Cliente p = new Cliente();
 
+            p.Id = Convert.ToInt64(deletar.Text);
+
             c.ExecutarOpBD('d', p);
         }
 
@@ -34,6 +36,8 @@ namespace View
             ClienteController c = new ClienteController();
             Cliente p = new Cliente();
 
+            p.Id = Convert.ToInt64(buscar.Text);
+            
             c.ExecutarOpBD('b', p);
         }
     }
