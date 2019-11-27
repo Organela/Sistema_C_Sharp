@@ -24,6 +24,8 @@ namespace View
             VagaController c = new VagaController();
             Vaga p = new Vaga();
 
+            p.Id = Convert.ToInt64(Buscar.Text);
+
             c.ExecutarOpBD('b', p);
         }
 
@@ -32,7 +34,14 @@ namespace View
             VagaController c = new VagaController();
             Vaga p = new Vaga();
 
+            p.Id = Convert.ToInt64(Deletar.Text);
+
             c.ExecutarOpBD('d', p);
+        }
+
+        private void textBoxId_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

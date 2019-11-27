@@ -43,10 +43,11 @@
             this.id,
             this.status});
             this.dvgDados.Location = new System.Drawing.Point(0, 0);
+            this.dvgDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dvgDados.Name = "dvgDados";
             this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
-            this.dvgDados.Size = new System.Drawing.Size(286, 254);
+            this.dvgDados.Size = new System.Drawing.Size(214, 206);
             this.dvgDados.TabIndex = 0;
             // 
             // id
@@ -63,12 +64,14 @@
             // 
             // FormVagaListar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.ClientSize = new System.Drawing.Size(212, 243);
             this.Controls.Add(this.dvgDados);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormVagaListar";
             this.Text = "FormVagaListar";
+            this.Load += new System.EventHandler(this.FormVagaListar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgDados)).EndInit();
             this.ResumeLayout(false);
 

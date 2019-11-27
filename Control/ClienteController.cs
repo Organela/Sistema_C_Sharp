@@ -9,10 +9,10 @@ using Model;
 
 namespace Control
 {
-     public class ClienteController
+    public class ClienteController
     {
         public Object ExecutarOpBD(char _c, Cliente _o)
-        {
+        {   
             try
             {
                 ClienteDAO dao = new ClienteDAO();
@@ -37,5 +37,8 @@ namespace Control
                 throw new Exception(ex.Message);
             }
         }
+        
+            
+        
     }
 }

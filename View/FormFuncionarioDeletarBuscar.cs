@@ -24,7 +24,7 @@ namespace View
 
             FuncionarioController c = new FuncionarioController();
             Funcionario p = new Funcionario();
-
+            p.Id = Convert.ToInt64(textId.Text);
             c.ExecutarOpBD('d', p);
         }
 
@@ -32,7 +32,7 @@ namespace View
         {
             FuncionarioController c = new FuncionarioController();
             Funcionario p = new Funcionario();
-
+            p.Id = Convert.ToInt64(buscar.Text);
             c.ExecutarOpBD('b', p);
 
         }

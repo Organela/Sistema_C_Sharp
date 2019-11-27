@@ -45,11 +45,13 @@
             this.nome,
             this.tel});
             this.dvgDados.Location = new System.Drawing.Point(0, 0);
+            this.dvgDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dvgDados.Name = "dvgDados";
             this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
-            this.dvgDados.Size = new System.Drawing.Size(340, 253);
+            this.dvgDados.Size = new System.Drawing.Size(255, 182);
             this.dvgDados.TabIndex = 0;
+            this.dvgDados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgDados_CellContentClick);
             // 
             // id
             // 
@@ -71,12 +73,14 @@
             // 
             // FormClienteListar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 253);
+            this.ClientSize = new System.Drawing.Size(254, 206);
             this.Controls.Add(this.dvgDados);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormClienteListar";
             this.Text = "FormClienteListar";
+            this.Load += new System.EventHandler(this.FormClienteListar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgDados)).EndInit();
             this.ResumeLayout(false);
 

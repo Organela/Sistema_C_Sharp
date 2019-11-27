@@ -47,10 +47,11 @@
             this.nome,
             this.cliente});
             this.dvgDados.Location = new System.Drawing.Point(0, 0);
+            this.dvgDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dvgDados.Name = "dvgDados";
             this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
-            this.dvgDados.Size = new System.Drawing.Size(444, 258);
+            this.dvgDados.Size = new System.Drawing.Size(333, 210);
             this.dvgDados.TabIndex = 0;
             this.dvgDados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dvgDados_CellContentClick);
             // 
@@ -80,12 +81,14 @@
             // 
             // FormCarroListar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 253);
+            this.ClientSize = new System.Drawing.Size(332, 255);
             this.Controls.Add(this.dvgDados);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormCarroListar";
             this.Text = "FormListarCarro";
+            this.Load += new System.EventHandler(this.FormCarroListar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgDados)).EndInit();
             this.ResumeLayout(false);
 

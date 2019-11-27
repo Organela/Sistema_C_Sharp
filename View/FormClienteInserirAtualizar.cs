@@ -39,6 +39,8 @@ namespace View
             Cliente p = new Cliente();
 
             p.Id = Convert.ToInt64(textBoxId.Text);
+            p.Nome = textBoxNome.Text;
+            p.Tel = textBoxtTel.Text;
 
             c.ExecutarOpBD('a', p);
         }

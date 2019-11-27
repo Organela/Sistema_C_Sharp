@@ -39,6 +39,12 @@ namespace View
             HistoricoController c = new HistoricoController();
             Historico p = new Historico();
 
+            p.DataInicio = Convert.ToDateTime(textBoxData.Text);
+            p.Preco = Convert.ToDouble(textBoxPreco.Text);
+            //p.Carro
+            //p.Vaga
+            //p.Funcionario
+            
             c.ExecutarOpBD('a', p);
         }
 
@@ -46,6 +52,12 @@ namespace View
         {
             HistoricoController c = new HistoricoController();
             Historico p = new Historico();
+
+            p.DataInicio = Convert.ToDateTime(textBoxData.Text);
+            p.Preco = Convert.ToDouble(textBoxPreco.Text);
+            //p.Carro = Convert.(textBoxCarro.Text);
+            //p.Vaga
+            //p.Funcionario
 
             c.ExecutarOpBD('i', p);
         }

@@ -29,6 +29,8 @@ namespace View
             HistoricoController c = new HistoricoController();
             Historico p = new Historico();
 
+            p.DataInicio = Convert.ToDateTime(Deletar.Text);
+
             c.ExecutarOpBD('d', p);
         }
 
@@ -36,6 +38,8 @@ namespace View
         {
             HistoricoController c = new HistoricoController();
             Historico p = new Historico();
+
+            p.DataInicio = Convert.ToDateTime(Deletar.Text);
 
             c.ExecutarOpBD('b', p);
         }

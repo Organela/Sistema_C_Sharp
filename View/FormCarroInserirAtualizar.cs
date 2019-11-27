@@ -31,7 +31,7 @@ namespace View
 
             p.Id =Convert.ToInt64(textBoxId.Text);
             p.Nome = textBoxNome.Text;
-            //p.Cliente =textBoxCliente.Text;
+            //p.Carro =textBoxCliente.Text;
             
             c.ExecutarOpBD('i', p);
         }
@@ -41,6 +41,10 @@ namespace View
 
             CarroController c = new CarroController();
             Carro p = new Carro();
+
+            p.Id = Convert.ToInt64(textBoxId.Text);
+            p.Nome = textBoxNome.Text;
+            //p.Carro =textBoxCliente.Text;
 
             c.ExecutarOpBD('a', p);
         }

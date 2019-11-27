@@ -45,10 +45,11 @@
             this.nome,
             this.tel});
             this.dvgDados.Location = new System.Drawing.Point(-2, -2);
+            this.dvgDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dvgDados.Name = "dvgDados";
             this.dvgDados.ReadOnly = true;
             this.dvgDados.RowTemplate.Height = 24;
-            this.dvgDados.Size = new System.Drawing.Size(316, 253);
+            this.dvgDados.Size = new System.Drawing.Size(237, 206);
             this.dvgDados.TabIndex = 1;
             // 
             // id
@@ -71,12 +72,14 @@
             // 
             // FormFuncionarioListar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 253);
+            this.ClientSize = new System.Drawing.Size(234, 243);
             this.Controls.Add(this.dvgDados);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormFuncionarioListar";
             this.Text = "FormFuncionarioListar";
+            this.Load += new System.EventHandler(this.FormFuncionarioListar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgDados)).EndInit();
             this.ResumeLayout(false);
 

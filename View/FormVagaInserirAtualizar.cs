@@ -21,8 +21,13 @@ namespace View
 
         private void Inserir_Click(object sender, EventArgs e)
         {
+
             VagaController c = new VagaController();
             Vaga p = new Vaga();
+
+            p.Id = Convert.ToInt64(textBoxId.Text);
+            p.Status = Convert.ToBoolean(textBoxStatus.Text);
+            
 
             c.ExecutarOpBD('i', p);
         }
@@ -31,6 +36,10 @@ namespace View
         {
             VagaController c = new VagaController();
             Vaga p = new Vaga();
+
+            p.Id = Convert.ToInt64(textBoxId.Text);
+            p.Status = Convert.ToBoolean(textBoxStatus.Text);
+           
 
             c.ExecutarOpBD('a', p);
         }

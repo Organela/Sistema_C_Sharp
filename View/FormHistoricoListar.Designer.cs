@@ -46,12 +46,12 @@
             this.preco,
             this.carro,
             this.vaga});
-            this.dgvDados.Location = new System.Drawing.Point(-4, 11);
-            this.dgvDados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvDados.Location = new System.Drawing.Point(-3, 9);
+            this.dgvDados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvDados.Name = "dgvDados";
             this.dgvDados.ReadOnly = true;
             this.dgvDados.RowTemplate.Height = 24;
-            this.dgvDados.Size = new System.Drawing.Size(441, 310);
+            this.dgvDados.Size = new System.Drawing.Size(331, 252);
             this.dgvDados.TabIndex = 0;
             this.dgvDados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDados_CellDoubleClick);
             // 
@@ -81,13 +81,14 @@
             // 
             // FormHistoricoListar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 322);
+            this.ClientSize = new System.Drawing.Size(325, 290);
             this.Controls.Add(this.dgvDados);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormHistoricoListar";
             this.Text = "FormListarHistorico";
+            this.Load += new System.EventHandler(this.FormHistoricoListar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).EndInit();
             this.ResumeLayout(false);
 

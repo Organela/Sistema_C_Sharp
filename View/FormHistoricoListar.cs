@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Model;
+using Control;
+
 namespace View
 {
     public partial class FormHistoricoListar : Form
@@ -31,8 +33,9 @@ namespace View
         }
 
         private void dgvDados_CellDoubleClick(object sender, DataGridViewCellEventArgs e)/*dvgDados é o name do método*/
-        {   try
-             {
+        {
+            try
+            {
                 Int64 idHistorico = Convert.ToInt64(dgvDados.SelectedRows[0].Cells[0].Value);
 
                 Dictionary<Int64, Historico> mapaHistorico = (Dictionary<Int64, Historico>)this.Tag;
@@ -48,6 +51,28 @@ namespace View
             catch (Exception ex)
             {
                 MessageBox.Show("ERRO AO SELECIONAR LINHA: " + ex.Message);
+            }
+        }
+
+        private void FormHistoricoListar_Load(object sender, EventArgs e)
+        {
+            CarregarMapaHistoricos();
+        }
+
+        private void CarregarMapaHistoricos()
+        {
+
+
+            HistoricoController Control = new HistoricoController();
+            Historico Objeto = new Historico();
+            List<Historico> Lista = new List<Historico>();
+
+            Lista = (List<Historico>)Control.ExecutarOpBD('l', Objeto);
+
+
+            foreach (Historico O in Lista)
+            {
+                dvgDados.Rows.Add(O.DataInicio, O.Preco, O.Carro, O.Vaga, O.Funcionario);
             }
         }
     }
